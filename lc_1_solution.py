@@ -1,4 +1,4 @@
-# O(n) time and O(2n) space solution 
+# O(n) time and O(n) space solution 
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -13,7 +13,7 @@ class Solution:
                 key_value_dict[nums[i]] = i 
 
 
-# O(n^2) time and space solution 
+# O(n^2) time and O(1) space solution 
 
 '''
 class Solution:
