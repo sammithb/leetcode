@@ -11,7 +11,7 @@ class Solution:
         return False 
 
 '''
-O(n log n) time and O(n log n) space solution 
+O(n log n) time and O(1) space solution 
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
