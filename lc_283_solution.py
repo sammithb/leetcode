@@ -1,4 +1,4 @@
-#o(n) time and o(n) space(in place) solution
+#o(n) time and o(n) space (in place) solution
 
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
@@ -14,7 +14,7 @@ class Solution:
         
 
 
-#o(n) time and o(n) space(not in place) solution 
+#o(n) time and o(n) space (not in place) solution 
 """
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
