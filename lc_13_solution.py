@@ -1,4 +1,4 @@
-# O(n) time and O(n) space solution 
+# O(n) time and O(1) space solution 
 
 class Solution:
     def romanToInt(self, s: str) -> int:
