@@ -1,7 +1,6 @@
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         # sorting has to be used here so any n log n sorting will work
-        # but using .sort() also works, making it more time efficient
         
         while len(stones) > 1:
             
