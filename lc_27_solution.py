@@ -17,3 +17,16 @@ class Solution:
         # return the count of values in the list that are not equal to 
         # val       
         return len(nums) - val_count
+
+        '''
+        class Solution:
+            def removeElement(self, nums: List[int], val: int) -> int:
+                temp = []
+                for num in nums: 
+                    if num != val: 
+                    temp.append(num)
+                for i in range(0, len(temp)): 
+                     nums[i] = temp[i] 
+        
+                return len(temp)            
+        '''
