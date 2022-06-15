@@ -18,6 +18,8 @@ class Solution:
         # val       
         return len(nums) - val_count
 
+
+        # O(n) space and O(n) time solution 
         '''
         class Solution:
             def removeElement(self, nums: List[int], val: int) -> int:
