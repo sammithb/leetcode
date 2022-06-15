@@ -1,5 +1,4 @@
-# O(sum from i = 2 to i = n, i log i) time and O(1) space
-
+# O(n log n) time and O(1) space
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         for i in range (0, len(stones)): 
@@ -19,7 +18,7 @@ class Solution:
 
 
 
-# O(n log n) time and O(1) space
+# O(sum from i = 2 to i = n, i log i) time and O(1) space
 '''
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
