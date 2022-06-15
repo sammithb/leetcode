@@ -14,7 +14,7 @@ class Solution:
         return end_index-index
         
 '''
-# O(n) time O(n) space
+# O(n) time and O(n) space
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         s = s.strip()
