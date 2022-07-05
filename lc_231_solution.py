@@ -1,4 +1,4 @@
-# O(log n) time and O(1) space solution
+# O(n) time and O(1) solution
 
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
@@ -22,6 +22,5 @@ class Solution:
             if n%2 == 1 and n != 1:
                 return False
         #checking if there is a remainder and if it is not equal to 1 
-            
-        if n == 1:
-            return True
+        
+        return True
