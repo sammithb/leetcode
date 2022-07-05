@@ -1,3 +1,19 @@
+# O(n) time and O(1) space solution 
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        
+        lowest_price = sys.maxsize
+        result = 0 
+        
+        for i in range (len(prices)): 
+            result = max(result, prices[i] - lowest_price)
+            lowest_price = min(lowest_price, prices[i])
+            
+        return result 
+
+
+'''
 # O(n) time and O(n) space solution
 
 class Solution:
@@ -19,3 +35,4 @@ class Solution:
             possible_profits.append(possible_profit) 
             
         return max(possible_profits)
+'''
